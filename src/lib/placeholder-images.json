@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "chicken-popcorn",
+      "description": "Crispy chicken popcorn in a bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcmllZCUyMGNoaWNrZW58ZW58MHx8fHwxNzcwNTA1MTQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fried chicken"
+    },
+    {
+      "id": "chicken-wings",
+      "description": "Glazed chicken wings on a plate",
+      "imageUrl": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlja2VuJTIwd2luZ3N8ZW58MHx8fHwxNzcwNDc0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken wings"
+    },
+    {
+      "id": "chicken-lollipop",
+      "description": "Chicken lollipops arranged neatly",
+      "imageUrl": "https://images.unsplash.com/photo-1614643458308-656e13a14a2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlja2VuJTIwbG9sbGlwb3BzfGVufDB8fHx8MTc3MDU1NzIxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken lollipops"
+    },
+    {
+      "id": "chicken-strips",
+      "description": "Golden chicken strips with a dip",
+      "imageUrl": "https://images.unsplash.com/photo-1619019187211-adf2f6119afd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwc3RyaXBzfGVufDB8fHx8MTc3MDU1NzIxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken strips"
+    },
+    {
+      "id": "chicken-pakodi",
+      "description": "Spicy Indian style chicken pakodi",
+      "imageUrl": "https://images.unsplash.com/photo-1694267518713-0543ffa17166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlja2VuJTIwcGFrb3JhfGVufDB8fHx8MTc3MDU1NzIxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken pakora"
+    },
+    {
+      "id": "french-fries",
+      "description": "Classic salted french fries",
+      "imageUrl": "https://images.unsplash.com/photo-1585109649139-366815a0d713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcmVuY2glMjBmcmllc3xlbnwwfHx8fDE3NzA1MTYyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french fries"
+    },
+    {
+      "id": "perry-perry-fries",
+      "description": "French fries tossed in perry perry spice",
+      "imageUrl": "https://images.unsplash.com/photo-1717250180703-c3bac5b6af5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcGljeSUyMGZyaWVzfGVufDB8fHx8MTc3MDU1NzIxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spicy fries"
+    }
+  ]
 }
