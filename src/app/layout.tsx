@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Chicken Bites Menu',
-  description: 'The official menu for Chicken Bites, featuring a variety of delicious chicken dishes and sides.',
+  title: 'TASTY CHICKEN BITES Menu',
+  description: 'The official menu for TASTY CHICKEN BITES, featuring a variety of delicious chicken dishes and sides.',
 };
 
 export default function RootLayout({

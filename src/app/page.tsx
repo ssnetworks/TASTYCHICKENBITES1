@@ -9,8 +9,8 @@ export default function Home() {
         <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-3">
             <UtensilsCrossed className="h-8 w-8 text-primary" />
-            <h1 className="font-headline text-4xl font-bold tracking-wider text-primary">
-              Chicken Bites
+            <h1 className="font-headline text-3xl font-bold tracking-wider text-primary">
+              TASTY CHICKEN BITES
             </h1>
           </div>
           <a
@@ -56,7 +56,7 @@ export default function Home() {
               <Instagram className="h-6 w-6" />
             </a>
           </div>
-          <p>&copy; {new Date().getFullYear()} Chicken Bites. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TASTY CHICKEN BITES. All rights reserved.</p>
           <p className="mt-1 text-sm">Deliciously Yours</p>
         </div>
       </footer>
