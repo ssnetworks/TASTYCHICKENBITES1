@@ -1,4 +1,4 @@
-import { Phone, UtensilsCrossed } from 'lucide-react';
+import { Instagram, Phone, UtensilsCrossed } from 'lucide-react';
 import { menuItems } from '@/app/lib/menu-data';
 import { MenuCard } from '@/components/menu-card';
 
@@ -45,6 +45,17 @@ export default function Home() {
 
       <footer className="mt-20 border-t border-border/50 bg-card">
         <div className="container mx-auto px-4 py-6 text-center text-muted-foreground md:px-6">
+          <div className="mb-4 flex justify-center gap-4">
+            <a
+              href="https://www.instagram.com/tasty_chicken_bites?igsh=MXB4bDM4ZDUxZWQ5MQ%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="transition-colors hover:text-primary"
+            >
+              <Instagram className="h-6 w-6" />
+            </a>
+          </div>
           <p>&copy; {new Date().getFullYear()} Chicken Bites. All rights reserved.</p>
           <p className="mt-1 text-sm">Deliciously Yours</p>
         </div>
