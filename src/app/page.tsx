@@ -1,37 +1,41 @@
 import { Instagram, Phone, UtensilsCrossed } from 'lucide-react';
 import { menuItems } from '@/app/lib/menu-data';
 import { MenuCard } from '@/components/menu-card';
+import { Highlights } from '@/components/highlights';
 
 export default function Home() {
   return (
     <div className="min-h-screen w-full bg-background text-foreground">
-      <header className="sticky top-0 z-10 border-b border-border/50 bg-background/80 backdrop-blur-sm">
+      <header className="sticky top-0 z-10 glass-effect">
         <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-3">
             <UtensilsCrossed className="h-8 w-8 text-primary" />
-            <h1 className="font-headline text-3xl font-bold tracking-wider text-primary">
+            <h1 className="font-headline text-3xl font-bold tracking-wider text-primary text-glow-hover">
               TASTY CHICKEN BITES
             </h1>
           </div>
+
           <a
             href="tel:+918331988366"
             className="flex items-center gap-2 rounded-full border border-primary/50 bg-primary/20 px-4 py-2 text-primary transition-colors hover:bg-primary/30"
             aria-label="Call to order"
           >
             <Phone className="h-5 w-5" />
-            <span className="hidden font-headline text-lg font-semibold md:inline">
+            <span className="hidden font-headline text-lg font-semibold md:inline text-glow-hover">
               +91 8331988366
             </span>
           </a>
         </div>
       </header>
+
+      <Highlights />
       
       <main className="container mx-auto px-4 py-12 md:px-6 md:py-16">
         <div className="text-center">
-          <h2 className="font-headline text-5xl font-extrabold tracking-tight text-primary sm:text-6xl lg:text-7xl">
+          <h2 className="font-headline text-5xl font-extrabold tracking-tight text-primary sm:text-6xl lg:text-7xl text-glow-hover">
             Our Menu
           </h2>
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-muted-foreground">
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-muted-foreground text-glow-hover">
             Savor the flavor of our expertly crafted chicken delights and sides. Freshly prepared, perfectly seasoned.
           </p>
         </div>
@@ -41,13 +45,18 @@ export default function Home() {
             <MenuCard key={item.id} item={item} />
           ))}
         </div>
+        <div className="mt-16 text-center">
+          <div className="rounded-full border border-primary/50 bg-primary/20 px-6 py-3 inline-block transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-lg">
+            <p className="font-headline text-2xl font-bold tracking-widest text-primary text-glow-hover">SELF SERVICE</p>
+          </div>
+        </div>
       </main>
 
-      <footer className="mt-20 border-t border-border/50 bg-card">
+      <footer className="mt-20 glass-effect">
         <div className="container mx-auto px-4 py-6 text-center text-muted-foreground md:px-6">
           <div className="mb-4 flex justify-center gap-4">
             <a
-              href="https://www.instagram.com/tasty_chicken_bites?igsh=MXB4bDM4ZDUxZWQ5MQ%3D"
+              href="https://www.instagram.com/tasty_chicken_bites?igsh=MXB4bDM4ZDUxZWQ5MQ%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -56,8 +65,8 @@ export default function Home() {
               <Instagram className="h-6 w-6" />
             </a>
           </div>
-          <p>&copy; {new Date().getFullYear()} TASTY CHICKEN BITES. All rights reserved.</p>
-          <p className="mt-1 text-sm">Deliciously Yours</p>
+          <p className="text-glow-hover">&copy; {new Date().getFullYear()} TASTY CHICKEN BITES. All rights reserved.</p>
+          <p className="mt-1 text-sm text-glow-hover">Deliciously Yours</p>
         </div>
       </footer>
     </div>
