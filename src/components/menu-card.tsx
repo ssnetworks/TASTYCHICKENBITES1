@@ -39,13 +39,13 @@ export function MenuCard({ item }: MenuCardProps) {
         {item.priceSingle && (
           <div className="text-right">
             <p className="text-sm font-bold uppercase tracking-wider text-accent text-glow-hover">Single</p>
-            <p className="font-headline text-2xl font-bold">₹{item.priceSingle}</p>
+            <p className="font-headline text-2xl font-bold">₹{item.priceSingle}{item.singleServing ? ` ${item.singleServing}` : ''}</p>
           </div>
         )}
         {item.priceFull && (
           <div className="text-right">
             <p className="text-sm font-bold uppercase tracking-wider text-accent text-glow-hover">Full</p>
-            <p className="font-headline text-2xl font-bold">₹{item.priceFull}</p>
+            <p className="font-headline text-2xl font-bold">₹{item.priceFull}{item.fullServing ? ` ${item.fullServing}` : ''}</p>
           </div>
         )}
       </CardFooter>
