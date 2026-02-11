@@ -22,24 +22,24 @@ export const menuItems: MenuItem[] = [
   {
     id: '2',
     name: 'Chicken Wings',
-    priceSingle: 80,(3p)
-    priceFull: 160,(6p)
+    priceSingle: 80,
+    priceFull: 160,
     imageId: 'chicken-wings',
     icon: Drumstick,
   },
   {
     id: '3',
     name: 'Chicken Lollipop',
-    priceSingle: 40,(1p)
-    priceFull: 160,(4p)
+    priceSingle: 40,
+    priceFull: 160,
     imageId: 'chicken-lollipop',
     icon: Drumstick,
   },
   {
     id: '4',
     name: 'Chicken Strips',
-    priceSingle: 80,(3p)
-    priceFull: 160,(6p)
+    priceSingle: 80,
+    priceFull: 160,
     imageId: 'chicken-strips',
     icon: Drumstick,
   },
